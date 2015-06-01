@@ -34,4 +34,22 @@
 		<filter-name>MultipartEncodeFilter</filter-name>
 		<url-pattern>/EncodeFilterTest</url-pattern>
 	</filter-mapping>
+	<servlet>
+		<servlet-name>FrontController</servlet-name>
+		<servlet-class>com.wzf.controller.FrontController</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>ContextController</servlet-name>
+    <servlet-class>com.wzf.controller.font.ContextController</servlet-class>
+  </servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name>
+		<url-pattern>/FrontController</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextController</servlet-name>
+    <url-pattern>/ContextController</url-pattern>
+  </servlet-mapping>
 </web-app>
