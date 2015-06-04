@@ -42,6 +42,11 @@
     <servlet-name>ContextController</servlet-name>
     <servlet-class>com.wzf.controller.font.ContextController</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>CommandController</servlet-name>
+    <servlet-class>com.wzf.controller.font.CommandController</servlet-class>
+  </servlet>
+
 
 
 	<servlet-mapping>
@@ -51,5 +56,9 @@
   <servlet-mapping>
     <servlet-name>ContextController</servlet-name>
     <url-pattern>/ContextController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommandController</servlet-name>
+    <url-pattern>/CommandController</url-pattern>
   </servlet-mapping>
 </web-app>

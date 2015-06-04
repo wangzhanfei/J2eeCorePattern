@@ -1,5 +1,7 @@
 package com.wzf.context.request;
 
+import java.util.Locale;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -37,6 +39,21 @@ public class RequestContext {
 	}
 
 	public String getCommandName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public HttpServletRequest getRequest() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Locale getUserLocal() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getUserAgent() {
 		// TODO Auto-generated method stub
 		return null;
 	}
