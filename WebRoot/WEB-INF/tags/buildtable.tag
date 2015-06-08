@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	This is my JSP page.
+	This is my JSP page---buildtable.
 	<br>
 </body>
 </html>
